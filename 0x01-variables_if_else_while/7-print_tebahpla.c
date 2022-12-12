@@ -5,12 +5,15 @@
  */
 int main(void)
 {
-	char le;
+	char e;
 
-	for (le = 'z'; le >= 'a'; le--)
-		putchar(le);
-
-	pputchar('\n');
+	e = 'z';
+	while (e >= 'a')
+	{
+		putchar(e);
+		e++;
+	}
+	putchar('\n');
 
 	return (0);
 }
