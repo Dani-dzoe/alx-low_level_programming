@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print alphabet_x10 - prints alpha 10 times
+ * print_alphabet_x10 - prints alpha 10 times
  */
 void print_alphabet_x10(void)
 {
 	int ten;
-	char la;
+	int la;
 
 	for (ten = 0; ten <= 9; ten++)
 	{
@@ -13,7 +13,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(la);
 		}
-		_putchar(ten);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
