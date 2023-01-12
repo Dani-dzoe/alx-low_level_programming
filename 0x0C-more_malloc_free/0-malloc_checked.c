@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * malloc_checked - array for prints a string
+ * *malloc_checked - array for prints a string
  * @b: number of memory
  * Return: a pointer to the allocated memory
  */
