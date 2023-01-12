@@ -2,12 +2,12 @@
 
 /**
  * malloc_checked - array for prints a string
- * @n: number of memory
+ * @b: number of memory
  * Return: void
  */
 void *malloc_checked(insigned int b)
 {
-	void *a;
+	void *p;
 
 	p = malloc(b);
 	if (p == NULL)
