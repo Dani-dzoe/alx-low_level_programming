@@ -6,7 +6,7 @@
  * @b: number of memory
  * Return: a pointer to the allocated memory
  */
-void *malloc_checked(insigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *p;
 
