@@ -3,16 +3,16 @@
 /**
  * malloc_checked - array for prints a string
  * @b: number of memory
- * Return: void
+ * Return: a pointer to the allocated memory
  */
 void *malloc_checked(insigned int b)
 {
 	void *p;
 
 	p = malloc(b);
+
 	if (p == NULL)
-	{
 		exit(98);
-	}
+
 	return (p);
 }
