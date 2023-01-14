@@ -11,10 +11,10 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
-	
+
 	if (argc == 3)
 	{
-		a = atoe(argv[1]);
+		a = atoi(argv[1]);
 		b = atoi(argv[1]);
 		printf("%d\n", a * b);
 		return (0);
