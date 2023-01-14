@@ -40,15 +40,17 @@ int main(int argc, char *argv[])
 	while (count < argc)
 	{
 		if (check_num(argv[count]))
+		{
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
+		}
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		count++;
+		printf("%d\n", sum);
+		return (0);
 	}
-	str_to_let = atoi(argv[count]);
-	sum += str_to_int;
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
-	count++;
-	printf("%d\n", sum);
-	return (0);
 }
