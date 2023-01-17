@@ -1,6 +1,9 @@
 #include "dog.h"
 #include <stdlib.h>
 
+int _strlen(char *str);
+char _strcpy(char *dest, float age, char *owner);
+
 /**
  * _strlen - returns the length of a string
  * @s: string to be evaluated
