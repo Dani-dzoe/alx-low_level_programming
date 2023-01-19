@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 	o = *argc[2];
 	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
 	result = func(arg1, arg2);
 	printf("%d\n", result);
