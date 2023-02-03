@@ -8,7 +8,6 @@
  * Return: If an error occurs - -1.
  *         Otherwise - The value of bit at index.
  */
-
 int get_bit(unsigned long int n, unsigned int index)
 {
 	if (index >= (sizeof(unsigned long int) * 8))
@@ -18,4 +17,4 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (0);
 
 	return (1);
-} 
+}
