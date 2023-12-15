@@ -1,4 +1,4 @@
-#include <search_algos.h>
+#include "search_algos.h"
 #include <math.h>
 
 /**
@@ -7,7 +7,7 @@
  * @array: Pointer to the first element of the array to search in
  * @size: Number of elements in the array
  * @value: Value to search for
- *
+ * @sqrt: square root of number
  * Return: Index where the value is located, or -1 array is NULL
  */
 int jump_search(int *array, size_t size, int value)
