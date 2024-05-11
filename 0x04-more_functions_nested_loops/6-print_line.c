@@ -16,3 +16,11 @@ void print_line(int n)
 
 	_putchar('\n');
 }
+
+int main(void)
+{
+	print_line(3);
+	print_line(10);
+	print_line(-1);
+	return (0);
+}

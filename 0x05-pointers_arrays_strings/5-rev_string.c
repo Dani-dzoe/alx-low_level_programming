@@ -21,3 +21,7 @@ void rev_string(char *s)
 		s[c] = rv;
 	}
 }
+
+int main(void)
+{
+	char s[10] = 

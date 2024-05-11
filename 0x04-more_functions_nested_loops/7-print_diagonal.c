@@ -20,3 +20,12 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 }
+
+int main(void)
+{
+	print_diagonal(3);	
+	print_diagonal(8);
+	print_diagonal(-7);
+	print_diagonal(1);
+	return (0);
+}
