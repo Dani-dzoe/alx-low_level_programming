@@ -1,4 +1,0 @@
-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
-DD_API_KEY=a04c3afece6465260c943de70d087597 DD_SITE="datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script_agent7.sh)"
-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
-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
