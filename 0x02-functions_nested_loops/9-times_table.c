@@ -47,7 +47,7 @@ void print_times_table(int n)
 }
 int main(void)
 {
-	print_times_table(12);
+	print_times_table(15);
 
 	return (0);
 }
