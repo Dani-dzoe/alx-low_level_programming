@@ -3,6 +3,7 @@
 /**
  * add_dnodeint_end - adds a new node at the end of a dlistint_t list.
  * @n: data
+ * @head: pointer to the head node.
  * Return: the address of the new element, or NULL if it failed.
  */
 
@@ -12,12 +13,11 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	new_node = malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
-		return NULL;
+		return (NULL);
 
 	new_node->n = n;
 	new_node->next = NULL;
 
-	// case 1: If the list is emply, the new node becomes the head
 	if (*head == NULL)
 	{
 		new_node->prev = NULL;
@@ -25,7 +25,6 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		return (new_node);
 	}
 
-	// case 2: if the list is not empty, we'll traverse the list to find the last node
 	last = *head;
 	while (last->next != NULL)
 		last = last->next;
