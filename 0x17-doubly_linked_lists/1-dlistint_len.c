@@ -2,6 +2,7 @@
 
 /**
  * dlistint_len - functions that returns the length of a dlistint list.
+ * @h: head node
  * Return: length of dlistint list
  */
 
