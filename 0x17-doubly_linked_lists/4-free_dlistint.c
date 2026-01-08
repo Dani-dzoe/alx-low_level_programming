@@ -2,6 +2,8 @@
 
 /**
  * free_dlistint_t - frees a dlistint_t list
+ * @head: pointer
+ * Return: Always 0
  */
 
 void free_dlistint(dlistint_t *head)
