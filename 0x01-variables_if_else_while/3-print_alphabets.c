@@ -26,4 +26,25 @@ int main(void)
 	return (0);
 }
 
+int func(int a , int b)
+{
+	return (a + b);
 
+
+}
+
+
+int sub(int a, int b)
+{
+	return (a - b);
+}
+
+
+int funca()
+{
+	int a, b, sum;
+
+	sum = func(a, b);
+
+	return (0);
+}
